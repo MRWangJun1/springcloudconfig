@@ -2,7 +2,7 @@ spring:
   application:
     name: springbootService
 server:
-  port: 6003
+  port: 6060
 eureka:
   client:
     service-url:
