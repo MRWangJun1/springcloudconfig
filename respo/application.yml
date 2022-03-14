@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: springbootService1
+  cloud:
+    config:
+      uri: http://localhost:6100/
+      profile: respo
+      label: master
+#      discovery:
+#        enabled: true
+#        service-id: springbootConfig
+
+server:
+  port: 6009
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
